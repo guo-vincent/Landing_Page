@@ -1,0 +1,223 @@
+body {
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+.header div{
+    display: flex;
+    align-items: center;    
+    justify-content: start;    
+    flex: auto;
+    margin-left: 96px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;  
+    justify-content: flex-end;
+    gap: 12px;
+    margin-right: 96px;
+    flex: auto;
+    color: white;
+    filter: contrast(50%);
+}
+
+a:link { 
+    text-decoration: none; 
+    color: white;
+} 
+a:visited { 
+    text-decoration: none; 
+    color: white;
+} 
+a:hover { 
+    text-decoration: none; 
+    color: white;
+} 
+a:active { 
+    text-decoration: none; 
+    color: white;
+}
+
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    flex: auto;
+    background-color: #1f2937;
+}
+
+.header2 .description {
+    justify-content: start;
+    margin-left: 96px;
+    color: #F9FAF8;
+}
+
+.header2 .description .main {
+    display: flex;
+    max-width: 85%;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.header2 .description .secondary {
+    display: flex;
+    max-width: 85%;
+    font-size: 18px;
+    filter: contrast(50%);
+}
+
+.header2 button {
+    display: flex;
+    margin: 8px;
+    margin-left: 0px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: #3882F6;
+    border-color: #3882F6;
+    border-radius: 5px;
+    color: #F9FAF8;
+}
+
+.header2 img {
+    display: flex;
+    margin-right: 96px;
+    min-width: 40%;
+    background-color: #F9FAF8;
+}
+
+.title {
+    text-align: center;
+    padding: 24px;
+    background-color: #F9FAF8;
+    font-size: 36px; 
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.header3 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 24px;
+    padding-top: 0px;
+    background-color: #F9FAF8;
+}
+
+.header3 .box{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 20%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.header3 .box img {
+    border-color: #3882F6;
+    border-radius: 5px;
+    border: #3882F6;
+}
+
+.header4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.header4 .testimonial {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 48px;
+    color: #1F2937;
+    filter: contrast(70%);
+    font-size: 36px;
+    font-weight: 50;
+    font-style: italic;
+}
+
+.header4 .attribution {
+    display: flex;
+    justify-content: end;
+    margin-right: 12.5%;
+    margin-top: 8px;
+    margin-bottom: 48px;
+    font-weight: bold;
+}
+
+.header5 {
+    display: flex;
+    background-color: #F9FAF8;
+    justify-content: center;
+    align-content: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.header5 .callToAction {
+    display: flex;
+    flex: auto;
+    background-color: #3882F6;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 12px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    min-width: 97.5%;
+    border-radius: 5px;
+    border-color: #3882F6;
+}
+
+.header5 .callToAction .left {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-right: 20%;
+    min-width: 50%;
+    color: #E5E7EB;
+}
+
+.header5 .callToAction .left .signup {
+    font-weight: bold;
+}
+
+.header5 .callToAction .left .signup_caption {
+    font-weight: 20;
+    filter: contrast(70%);
+    font-size: 12px;
+}
+
+.header5 .callToAction button {
+    display: flex;
+    margin-left: 16px;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-wrap: nowrap;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-color: #E5E7EB;
+    font-size: 16px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    padding: 16px;
+    font-style: italic;
+    font-weight: 50;
+    filter: contrast(50%);
+}

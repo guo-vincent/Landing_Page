@@ -1,0 +1,3 @@
+These are the odin project site that I tried to replicate. 
+Link: https://www.theodinproject.com/lessons/foundations-landing-page
+I did add my own little embellishments to it.
